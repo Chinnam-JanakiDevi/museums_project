@@ -8,7 +8,7 @@ const restaurent = new mongoose.Schema({
     outcode: String,
     postcode: String,
     rating: Number,
-    typeOfFood: String
+    type_of_food: String
 });
 
 module.exports = mongoose.model('restaurent',restaurent);

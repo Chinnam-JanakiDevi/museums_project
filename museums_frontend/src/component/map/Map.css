@@ -1,0 +1,18 @@
+.map-link {
+    display: block;
+    /* Make the link a block-level element */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Adjust the top margin */
+    color: #000;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    /* Font size */
+}
+
+.map-link:hover {
+    color: #944e63;
+    /* Change text color on hover */
+}

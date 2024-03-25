@@ -36,7 +36,7 @@ function Museums() {
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
             </div>
-            <div className="container">
+            <div className="kcontainer">
 
                 <div className="card-list">
                     {filteredMuseums.map((museum, index) => (
